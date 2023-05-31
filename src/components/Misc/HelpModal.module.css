@@ -1,0 +1,28 @@
+.help-modal h1 {
+  text-align: center;
+  font-family: "Montserrat";
+  margin-bottom: 2rem;
+}
+
+.help-modal ul {
+  padding-left: 1rem;
+}
+
+.help-modal li {
+  margin-bottom: 0.1rem;
+}
+
+#role {
+  text-transform: capitalize;
+}
+
+.action {
+  display: flex;
+  column-gap: 2rem;
+  margin-top: 1rem;
+  justify-content: center;
+}
+
+.action > button {
+  border-radius: 20px;
+}

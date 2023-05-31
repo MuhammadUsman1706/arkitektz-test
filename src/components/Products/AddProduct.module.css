@@ -1,0 +1,44 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Montserrat&display=swap"); */
+
+.add-product {
+  font-family: "Montserrat";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #f0f4fa;
+}
+
+.add-product section {
+  min-width: 25vw;
+  max-width: 90%;
+  background-color: white;
+  padding: 2rem 5rem;
+  border-radius: 20px;
+}
+
+.add-product h1 {
+  text-align: center;
+  font-family: "Montserrat";
+  margin-bottom: 3rem;
+}
+
+.add-product-form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+}
+
+.add-product-form button {
+  margin-top: 2rem;
+  align-self: center;
+  width: 150px;
+  border-radius: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .add-product section {
+    padding: 2rem 3rem;
+    margin: 0 1rem;
+  }
+}
